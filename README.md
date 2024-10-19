@@ -22,4 +22,4 @@ Welcome to the **Email/SMS Spam Classifier**! This project leverages machine lea
 ---
 
 ## Demo 
-- **Watch a demo video of the project here:** https://drive.google.com/file/d/1L01aBq2vblGfCZVgRCZq_S4yqciuetbc/view?usp=sharing
+- **Watch the demo video of the project here:** https://drive.google.com/file/d/1L01aBq2vblGfCZVgRCZq_S4yqciuetbc/view?usp=sharing
