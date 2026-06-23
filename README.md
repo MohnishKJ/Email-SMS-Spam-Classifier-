@@ -1,25 +1,28 @@
-# 📩 Email/SMS Spam Classifier 🕵️‍♂️
+# Email/SMS Spam Classifier 📩
 
-## Overview
-Welcome to the **Email/SMS Spam Classifier**! This project leverages machine learning to determine whether a given message is spam or not. Designed with a user-friendly interface using **Streamlit**, it allows users to input messages and receive real-time predictions.
+ML-based app that classifies messages as spam or not spam in real-time.
 
----
+## 🚀 What it does
+- Takes any email/SMS text as input and predicts spam or not spam instantly
+- Shows example spam messages for reference
+- Gives quick tips to avoid spam
 
-## ✨ Features
-- **Spam Detection**: Classifies messages as spam or not spam.
-- **Example Messages**: Provides users with examples of common spam messages.
-- **Spam Prevention Tips**: Offers helpful tips to avoid spam messages.
-  
----
+## ⚙️ How it works
+- Cleans and preprocesses text using NLTK (tokenization, stopword removal, stemming)
+- Converts text into numerical features using vectorization
+- Classifies messages using a trained Scikit-learn model
+- Model loaded via Pickle for fast inference
+- Streamlit handles the UI
 
-## 🚀 Technology Stack
-- **Programming Language**: Python
-- **Web Framework**: Streamlit
-- **Natural Language Processing**: NLTK
-- **Machine Learning Library**: Scikit-learn
-- **Data Serialization**: Pickle
+## 🛠️ Tech Stack
+- Python
+- Streamlit
+- NLTK
+- Scikit-learn
+- Pickle
 
----
+## 💡 Use case
+Built to quickly check if a message is spam without relying on built-in email/SMS filters.
 
-## Demo 
-- **Watch the demo video of the project here:** https://drive.google.com/file/d/1L01aBq2vblGfCZVgRCZq_S4yqciuetbc/view?usp=sharing
+## 📩 Demo 
+- Watch the demo video of the project here: https://drive.google.com/file/d/1L01aBq2vblGfCZVgRCZq_S4yqciuetbc/view?usp=sharing
