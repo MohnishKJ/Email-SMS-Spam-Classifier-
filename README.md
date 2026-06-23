@@ -1,4 +1,4 @@
-# Email/SMS Spam Classifier 📩
+# IsItSpamOrNot? 📩
 
 ML-based app that classifies messages as spam or not spam in real-time.
 
